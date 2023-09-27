@@ -1,2 +1,17 @@
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+  grid-template-rows: repeat(2, 1fr);    /* Creates 2 equal rows */
+  grid-gap: 10px;                        /* Adds some gap between items (adjust as needed) */
+  width: 200px;                          /* Sets the total size of the grid */
+  height: 200px;                         /* Sets the total size of the grid */
+}
 
+.item {
+  /* Any existing styles for individual items can be retained here */
+  /* For example, you can set background colors, borders, etc. */
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
 /* Your CSS Code here. */
